@@ -35,7 +35,6 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
 
@@ -67,3 +66,9 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+.vs/
+Debug/
+Release/
+x64/
+x86/

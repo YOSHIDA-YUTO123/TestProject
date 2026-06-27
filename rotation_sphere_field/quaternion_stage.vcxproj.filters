@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Base">
+      <UniqueIdentifier>{b0e8b00e-4338-4c4c-a32f-80705d44790f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Base">
+      <UniqueIdentifier>{8bde9736-9e00-4160-a0aa-d55b35d4916c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{5cf7157e-e3ad-4ac3-b126-0bcc5f6e1e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{b01bbff2-2245-4e0e-af70-34c32241567b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ObjectBase">
+      <UniqueIdentifier>{358bf345-0911-46aa-991c-fffdb4df7111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ObjectBase">
+      <UniqueIdentifier>{7f918472-5352-4674-8556-78d15ac8a7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{c8e3147b-1f07-48b4-8d9e-cccd7a0f5f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Manager">
+      <UniqueIdentifier>{86c92dc3-b251-436d-8a7c-044099dd4daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Buffer">
+      <UniqueIdentifier>{81ee6db0-1ad6-4338-aa06-653c726df37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Buffer">
+      <UniqueIdentifier>{e22b1707-4157-45bc-b263-a8b47af17f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Transform">
+      <UniqueIdentifier>{0ad7ba7c-aa68-4b8e-b4be-1233df9ce7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Transform">
+      <UniqueIdentifier>{d09e4150-2fd4-4f04-adf9-880db2078c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{cb0ac6d3-e924-4e8e-8c40-8d392d199bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{408861e5-6244-4c2a-a782-27718fe9139f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mesh">
+      <UniqueIdentifier>{669596fc-cc43-45fe-9125-45e3be719b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mesh">
+      <UniqueIdentifier>{8aad2e4f-5ba1-4f19-b940-052e68968f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{4154e2d5-0750-4bf5-9791-c8337321e612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Player">
+      <UniqueIdentifier>{12b0546e-2d19-4b08-9857-ee40600a0163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character">
+      <UniqueIdentifier>{25cd55ba-18a4-43c0-be17-5cfc47346803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Character">
+      <UniqueIdentifier>{dc18bb0c-90e8-4d65-bee6-d23196431bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ObjectX">
+      <UniqueIdentifier>{14ee6481-533f-47d6-9326-970de9185f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ObjectX">
+      <UniqueIdentifier>{61e5b8cd-1b5b-4841-b760-6452d3f130f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Debug">
+      <UniqueIdentifier>{ea6f2af7-461e-4f48-8dcb-f98843b382d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Debug">
+      <UniqueIdentifier>{3b39c0bc-3c90-4233-b355-d202f160bea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Constants">
+      <UniqueIdentifier>{3352e173-a15a-44c0-942c-b6fed3004cb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpp\Base\camera.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\fade.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\input.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\light.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\main.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\manager.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\model_manager.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\pch.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\renderer.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\texture_manager.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Base\utility_math.cpp">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Scene\scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Scene\title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ObjectBase\object.cpp">
+      <Filter>ソース ファイル\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Manager\object_manager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Buffer\vertex_buffer.cpp">
+      <Filter>ソース ファイル\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ObjectBase\object2d.cpp">
+      <Filter>ソース ファイル\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Transform\transform2d.cpp">
+      <Filter>ソース ファイル\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ObjectBase\objectx.cpp">
+      <Filter>ソース ファイル\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Transform\transform3d.cpp">
+      <Filter>ソース ファイル\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\template.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\System\motion.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\System\motion_loader.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Buffer\index_buffer.cpp">
+      <Filter>ソース ファイル\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Mesh\mesh_field.cpp">
+      <Filter>ソース ファイル\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ObjectBase\object3d.cpp">
+      <Filter>ソース ファイル\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ObjectBase\billboard.cpp">
+      <Filter>ソース ファイル\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Player\player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Character\model.cpp">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Character\character.cpp">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\System\input_system.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ObjectX\rotation_sphere_field.cpp">
+      <Filter>ソース ファイル\ObjectX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Debug\line.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Debug\debug_proc.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ObjectX\map_object.cpp">
+      <Filter>ソース ファイル\ObjectX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Debug\debug_parameter.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\include\Base\camera.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\fade.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\input.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\json.hpp">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\light.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\main.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\manager.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\model_manager.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\pch.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\renderer.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\texture_manager.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Base\utility_math.h">
+      <Filter>ヘッダー ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Scene\scene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Scene\title.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\ObjectBase\object.h">
+      <Filter>ヘッダー ファイル\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Manager\object_manager.h">
+      <Filter>ヘッダー ファイル\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Buffer\vertex_buffer.h">
+      <Filter>ヘッダー ファイル\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\ObjectBase\object2d.h">
+      <Filter>ヘッダー ファイル\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Transform\transform2d.h">
+      <Filter>ヘッダー ファイル\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Transform\transform_data.h">
+      <Filter>ヘッダー ファイル\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\ObjectBase\objectx.h">
+      <Filter>ヘッダー ファイル\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Transform\transform3d.h">
+      <Filter>ヘッダー ファイル\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\template.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\System\motion.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\System\motion_loader.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Buffer\index_buffer.h">
+      <Filter>ヘッダー ファイル\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Mesh\mesh_field.h">
+      <Filter>ヘッダー ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Mesh\mesh_param.h">
+      <Filter>ヘッダー ファイル\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\ObjectBase\object3d.h">
+      <Filter>ヘッダー ファイル\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\ObjectBase\billboard.h">
+      <Filter>ヘッダー ファイル\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Player\player.h">
+      <Filter>ヘッダー ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Character\model.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Character\character.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\System\input_system.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\ObjectX\rotation_sphere_field.h">
+      <Filter>ヘッダー ファイル\ObjectX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Debug\line.h">
+      <Filter>ヘッダー ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Constants\color_constants.h">
+      <Filter>ヘッダー ファイル\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Debug\debug_proc.h">
+      <Filter>ヘッダー ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\ObjectX\map_object.h">
+      <Filter>ヘッダー ファイル\ObjectX</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Debug\debug_parameter.h">
+      <Filter>ヘッダー ファイル\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
